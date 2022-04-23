@@ -40,7 +40,10 @@ class encryption:
             #writing the encrypted data 
             with open('words.csv', 'wb') as encrypted_file:
                encrypted_file.write(encrypted)
-         
+               
+ # use import os and declare os.remove('filename') to remove the current file if necessary.
+ # otherwise, I will start creating the gui and update this project a bit further.
+ 
       e_func()
 # P.S: i know this code looks pretty messed up
 if decide == "B" or "b":
